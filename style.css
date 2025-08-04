@@ -73,3 +73,37 @@ img {
 .right {
     flex-wrap: wrap;
 }
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 16px;
+    margin-bottom: 48px;
+}
+
+.talents {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.talent {
+    justify-content: space-around;
+}
+
+.box {
+    padding: 52px;
+    margin-bottom: 8px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #3882F6;
+    flex: 0;
+}
