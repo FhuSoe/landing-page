@@ -6,7 +6,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header {
+.header,.footer {
     background-color: #1f2937;
     display: flex; 
     font-size: 24px;
@@ -138,7 +138,7 @@ img {
     justify-content: space-around;
     align-items: center;
     padding: 40px;
-    margin: 80px;
+    margin: 100px;
     border-radius: 25px;
 }
 
@@ -155,4 +155,9 @@ img {
 .button {
     border-style: double;
     border-color: #E5E7EB;
+}
+
+.footer {
+    padding: 20px;
+    font-size: 12px;
 }
