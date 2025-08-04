@@ -33,3 +33,43 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.hero {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+    width: 400px;
+    padding: 16px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content {
+    font-size: 18px;
+    width: 400px;
+    margin: 10px 0px;
+}
+
+.button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    border-style: none;
+    padding: 5px 40px;
+}
+
+img {
+    width: 150px;
+}
+
+.right {
+    flex-wrap: wrap;
+}
