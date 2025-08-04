@@ -131,3 +131,28 @@ img {
     font-weight: 700;
     font-size: 20px;
 }
+
+.callto {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    margin: 80px;
+    border-radius: 25px;
+}
+
+.time {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.action {
+    color: #F9FAF8;
+}
+
+.button {
+    border-style: double;
+    border-color: #E5E7EB;
+}
