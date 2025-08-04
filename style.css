@@ -101,7 +101,8 @@ img {
 }
 
 .box {
-    padding: 52px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 8px;
     border-style: solid;
     border-radius: 15px;
@@ -114,7 +115,7 @@ img {
     background-color: #E5E7EB;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 60px;
     flex-direction: column;
 }
 
